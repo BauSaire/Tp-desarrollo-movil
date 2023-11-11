@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#257171"
+    android:orientation="vertical"
+    tools:context=".InicioActivity"
+    android:paddingLeft="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DNI: "
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/dniUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#3A63D8"
+
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Domicilio: "
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/domicilioUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#3A63D8"
+        />
+
+
+    <TextView
+        android:id="@+id/nacionalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nacionalidad: "
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/nacionalidadUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#3A63D8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicación: "
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:src="@drawable/ubi" />
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:textAlignment="center"
+        android:padding="10dp"
+
+        />
+</LinearLayout>
